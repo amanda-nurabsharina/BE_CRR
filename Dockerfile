@@ -49,3 +49,4 @@ ENV PORT=8080 \
 VOLUME ["/app/storage_data"]
 
 ENTRYPOINT ["/app/server"]
+
