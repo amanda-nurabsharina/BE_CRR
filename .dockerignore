@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+storage_data/
+*.exe
+*.bin
+*.zip
+*.m4a
+*.docx
+tmp/
