@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Environment variables
+.env
+.env.local
+
+# Storage data and uploads
+storage_data/
+storage/
+chunks/
+*.bin
+
+# Temp extracted files
+docx_extracted/
+docx_saksi_extracted/
+*.zip
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
