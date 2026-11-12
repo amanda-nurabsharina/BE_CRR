@@ -18,7 +18,7 @@ bin/
 
 # Storage data and uploads
 storage_data/
-storage/
+/storage/
 chunks/
 *.bin
 
