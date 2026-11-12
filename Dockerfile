@@ -14,6 +14,9 @@ ENV CGO_ENABLED=0
 COPY go.mod go.sum ./
 RUN go mod download
 
+# Invalidate cache on new commits
+ARG GIT_SHA
+
 # Copy application source
 COPY . .
 
